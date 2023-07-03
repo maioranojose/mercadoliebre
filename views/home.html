@@ -4,30 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre | Home</title>
-
+    <title>Mercado Liebre | Home</title> 
+    <script src="https://kit.fontawesome.com/e5b2ab8962.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <nav>
-        <img src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre.svg" width="250" >
-             
-        <p>Lugar para poner barra de búsqueda</p>
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
+<body class="home">
+    <header class="home__header">
+        <div class="home__header__img--logo">
+        <img src="/img/logo-mercado-liebre.svg" 
+        alt="logo-mercado-liebre.svg" width="250" >
+        </div>
+        <input class="home__header__barbusq" type="text" placeholder="Buscar productos, marcas" name="search">
+        <button class="home__header__button--lupa" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <p class="home__header__icon"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        <nav class="home__header__nav--menu">
         <ul>
             <li><a href="">Ofertas</a></li>
             <li><a href="">Tiendas oficiales</a></li>
             <li><a href="">Vender</a></li>
             <li><a href="">Ayuda</a></li>
         </ul>
+        </nav>
+        <nav class="home__header__nav--usuario">
         <ul>
             <li><a href="">Crear tu cuenta</a></li>
             <li><a href="">Ingresá</a></li>
             <li><a href="">Mis compras</a></li>
         </ul>
+        <div class="home__header__banner">
         <img src="/img/img-home-banner.jpg" alt="img-home-banner.jpg" width="300">
-        </nav>    
+        </div>
     </header>
 
     <main>
