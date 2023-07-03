@@ -5,9 +5,9 @@
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
+    --colorNegro:black;
     --tipografiaGeneral: 'Roboto', sans-serif;
 }
-
 * {
     box-sizing: border-box;
     margin: 0 auto;
@@ -17,9 +17,13 @@
 body {
     font-family: var(--tipografiaGeneral);
     max-width: 1180px;
+    padding: 20px; 
     background-color: #EAC926;
-    padding: 20px;
 }
+main {
+}
+
+
 li{
     list-style: none;
 }
