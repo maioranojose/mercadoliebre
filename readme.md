@@ -5,5 +5,8 @@ Este sitio de venta ofrece una amplia variedad de productos. Ofrece de diferente
 Nombre: José Francisco Maiorano
 Comisión N°20
 
+[Trabajo Práctico Parte 1 : Estructura de un sitio web](https://github.com/maioranojose/mercadoliebre/tree/structure)
 
+[Trabajo Práctico Parte 2 :
+Agregando Estilos](https://github.com/maioranojose/mercadoliebre/tree/styles)
 
