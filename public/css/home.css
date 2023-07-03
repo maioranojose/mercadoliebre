@@ -1,7 +1,7 @@
 /*HEADER*/
 
 .home__header__img--logo{
-    
+    padding: 20px; 
     margin: 0 0 15px;
     width: 180px;
 }
@@ -9,14 +9,19 @@
     width: 100%;
 }
 .home__header__barbusq {
-    margin-bottom: 15px;
+    padding: 0 auto 0; 
+    margin: 0 0 0 20px;
 }
 .home__header__icon {
     font-size: 16px;
     text-align: center;
     margin-bottom: 15px;
-}
+    padding: 20px  0 0px; 
 
+}
+.home__header__nav--menu {
+    padding: 20px; 
+}
 .home__header__nav--menu ul li a{
     font-size: 12px;
     display: inline-block;
@@ -25,7 +30,7 @@
     color:var(--colorNegro);
 }
 .home__header__nav--usuario{
-    margin-top: 15px;
+    padding: 20px;
 }
 .home__header__nav--usuario ul li a {
     font-size: 12px;
@@ -109,9 +114,7 @@ color:var(--colorNegro);
     display: block;
 }
 /*FOOTER*/
-.home__footer {
-    background-color: #ffff;
-}
+
 .home__footer h4 {
     color: var(--colorGrisOscuro);
     font-size: 18px;
