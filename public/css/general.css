@@ -8,16 +8,11 @@
     --colorNegro:black;
     --tipografiaGeneral: 'Roboto', sans-serif;
 }
-* {
-    box-sizing: border-box;
-    margin: 0 ;
-    padding: 0;
-    border: 0;
-}
 
 body {
     font-family: var(--tipografiaGeneral);
     max-width: 1180px;
+    margin: 0;
 }
 header {
     background-color: #EAC926;
