@@ -34,10 +34,10 @@
 }
 .home__header__nav--usuario ul li a {
     font-size: 12px;
-display: inline-block;
-width: 100%;
-text-decoration: none;
-color:var(--colorNegro);
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color:var(--colorNegro);
 }
 .home__header__menu-hamburguesa {
     text-align: center;
