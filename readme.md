@@ -10,4 +10,4 @@ Comisión N°20
 [Trabajo Práctico Parte 2 :
 Agregando Estilos](https://github.com/maioranojose/mercadoliebre/tree/styles)
 
-[Trabajo Práctico Parte 3 : Diseño Adaptativo]
+[Trabajo Práctico Parte 3 : Diseño Adaptativo](https://github.com/maioranojose/mercadoliebre/tree/adaptive)
