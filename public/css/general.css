@@ -4,19 +4,22 @@
     --colorCeleste: #1259c3;
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
+    --colorGrisIntermedio:#B2BABB;
     --colorVerde: #39b54a;
     --colorNegro:black;
 
     --tipografiaGeneral: 'Roboto', sans-serif;
 }
-main {
-    background-color: var(--colorGrisClaro);
-}
+
 body {
     background-color: var(--colorGrisClaro);
     font-family: var(--tipografiaGeneral);
     max-width: 1180px;
     margin: 0;
+}
+main {
+    justify-content: center;
+    text-align: center;
 }
 header {
     background-color: #EAC926;
