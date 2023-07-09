@@ -6,10 +6,14 @@
     --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
     --colorNegro:black;
+
     --tipografiaGeneral: 'Roboto', sans-serif;
 }
-
+main {
+    background-color: var(--colorGrisClaro);
+}
 body {
+    background-color: var(--colorGrisClaro);
     font-family: var(--tipografiaGeneral);
     max-width: 1180px;
     margin: 0;
