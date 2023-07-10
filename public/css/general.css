@@ -17,11 +17,14 @@ body {
     font-family: var(--tipografiaGeneral);
     max-width: 1180px;
     margin: 0;
+    padding: 0;
+    border: 0;
 }
-main {
-    justify-content: center;
-    text-align: center;
+main section{
+    background-color: var(--colorBlanco);
+    
 }
+
 header {
     background-color: #EAC926;
 }
