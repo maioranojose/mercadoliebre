@@ -48,6 +48,7 @@
     color: var(--colorGrisClaro);
     background-color: var(--colorCeleste);
     width: 40px;
+    margin: 20px auto 15px;
     height: 40px;
     display: block;
     font-size:1.5rem;
@@ -473,10 +474,10 @@
 
 /*MAIN*/
 .home__main {
-    margin-left: 15px;
-    margin-right: 15px;
-    
+    margin: 15px auto 15px;
+    width: 90%;
 }
+
 .home__main__section--product-title {
     font-size: 24px;
     width: 100%;
