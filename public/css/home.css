@@ -1,22 +1,53 @@
 @media (min-width:320px){
 
     /*HEADER*/
+    
+.contenedor_header {
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row ;
+    justify-content:center;
 
-.home__header__img--logo{
-    padding: 20px; 
-    margin: 0 0 15px;
-    width: 180px;
-    }
-.home__header__img--logo img {
-    width: 100%;
-    }
+}
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+}
+.home__header__button--lupa{
+    height: 30px;
+    width: 30px;
+    background-color: var(--colorBlanco);
+    border-style: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: var(--colorGrisIntermedio);
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
 .home__header__barbusq {
-    margin: 0 0 0 20px;
-    }
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-style: none;
+    height: 30px;
+    margin: 4px;
+    margin-right: 0;
+    display: flex;
+}
+.home__header__img--logo{
+    display: block;
+    padding: 4px;
+    width: 100%;
+}
 .home__header__icon {
     font-size: 16px;
-    margin-bottom: 15px;
-    padding: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: center;
     }
 .home__header__nav--menu ul {
@@ -60,7 +91,7 @@
     }
 .home__header__banner {
     width: auto;
-    height: 50%;
+    height: 100%;
     font-size: 0;
     }
 
@@ -123,10 +154,11 @@
         font-size: 18px;
         width: 40px;;
         height:40px;
-        margin-left: 225px;
+        margin-left: 20px;
         box-sizing: content-box;
         display: block;
         padding: 0;
+        border-top: solid var(--colorGrisClaro) 1px;
         background-color: var(--colorBlanco);
         border-radius: 50%;
         border: 1px solid var(--colorVerde);
@@ -213,16 +245,46 @@
     
     /*HEADER*/
 
-    .home__header__img--logo{
-        padding: 20px; 
-        margin: 0 0 15px;
-        width: 180px;
+    .contenedor_header {
+        padding-top: 20px;
+        display: flex;
+        flex-direction:row ;
+        justify-content:space-between;
     }
-    .home__header__img--logo img {
-        width: 100%;
+    .busqueda {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .home__header__button--lupa{
+        height: 30px;
+        width: 30px;
+        background-color: var(--colorBlanco);
+        border-style: none;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: var(--colorGrisIntermedio);
+        margin-right: 10px;
+        margin-bottom: 4px;
+
     }
     .home__header__barbusq {
-        margin: 0 0 0 20px;}
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-style: none;
+        height: 30px;
+        margin: 4px;
+        margin-right: 0;
+    }
+
+    .home__header__img--logo{
+        display: flex;
+    padding: 4px;
+    width: 75%;
+
+    }
     .home__header__icon {
         font-size: 16px;
         margin-bottom: 15px;
@@ -425,16 +487,44 @@
     
  /*HEADER*/
 
- .home__header__img--logo{
-    padding: 20px; 
-    margin: 0 0 15px;
-    width: 180px;
+ .contenedor_header {
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-around;
 }
-.home__header__img--logo img {
-    width: 100%;
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.home__header__button--lupa{
+    height: 30px;
+    background-color: var(--colorBlanco);
+    border-style: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: var(--colorGrisIntermedio);
+    margin-right: 10px;
+
 }
 .home__header__barbusq {
-    margin: 0 0 0 20px;}
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-style: none;
+    height: 30px;
+    margin: 4px;
+    margin-right: 0;
+    display: flex;
+}
+
+.home__header__img--logo{
+    width: 40%;
+    padding: 4px;
+    display: flex;
+}
 .home__header__icon {
     font-size: 16px;
     margin-bottom: 15px;
@@ -552,9 +642,7 @@ border-top: solid var(--colorGrisClaro) 1px;
     width: 40px;;
     height:40px;
     margin-left: 20px;
-    margin-bottom: 0;
     box-sizing: content-box;
-    display: block;
     padding: 0;
     background-color: var(--colorBlanco);
     border-radius: 50%;

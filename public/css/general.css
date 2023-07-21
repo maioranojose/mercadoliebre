@@ -4,14 +4,15 @@
     --colorCeleste: #1259c3;
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
-    --colorGrisIntermedio:#B2BABB;
+    --colorGrisIntermedio: #B2BABB;
     --colorVerde: #07C850;
     --colorNegro:black;
     --colorBlanco:#ffff;
 
-    --tipografiaGeneral: 'Roboto', sans-serif;
+    --tipografiaGeneral:
+    'Roboto', sans-serif;
 }
-*{
+*{  border: 0;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
