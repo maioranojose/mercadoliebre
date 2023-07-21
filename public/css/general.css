@@ -12,17 +12,19 @@
     --tipografiaGeneral: 'Roboto', sans-serif;
 }
 
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
 body {
     background-color: var(--colorGrisClaro);
     font-family: var(--tipografiaGeneral);
     max-width: 1180px;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
-main section{
+main {
     background-color: var(--colorBlanco);
-    
 }
 
 header {
