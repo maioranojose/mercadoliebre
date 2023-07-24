@@ -384,6 +384,12 @@
         background: var(--colorGrisClaro);
         color: var(--colorGrisOscuro);
     }
+    .mercaderia {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
     .home__main--articulo {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     padding: 0;
