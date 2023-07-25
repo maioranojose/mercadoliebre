@@ -1,94 +1,62 @@
-.login{
+.formulario-login {
     text-align: center;
     background-color: var(--colorGrisIntermedio);
 }
-.login h4{
-    color: white;
-    margin: 20px;
-    text-align:center;
-    margin-bottom: 30px;
-    font-size: 35px;
-
+.formulario-login h4{
+    margin: 15px;
+    font-size: 25px;
+    color:white;
 }
-.control input{
-    width: 60%;
-    padding: 11px 10px;
+.boton{
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.boton input {
+    width: 33%;
+    margin: 10px;
     font-size: 15px;
-    margin:20px;
-}
-.olvidaste input{
-    width: 10px;
-    height: 10px;
-}
-.olvidaste label{
-    font-size: 13px;
-    padding: 15px;
-}
-
-.boton input{
-    width: 40%;
-    margin:40px;
-    font-size: 20px;
-    background-color:var(--colorCeleste);
+    color: var(--colorBlanco);
     padding: 8px;
+    border-radius: 5px;
+    background-color: var(--colorCeleste);
 }
-.terminos input{
-    width: 10px;
-    height: 10px;
+
+.olvide p a{
+    color:var(--colorCeleste);
+    text-decoration: none; 
+    font-size: 18px;
 }
-.terminos label{
-    font-size: 15px;
-    padding:15px;
+.olvide p{
+    margin-top: 5px;
 }
 
 @media(min-width: 768px){
-    .login h4{
-        font-size: 70px;
 
-    }
-    .control input{
-        width: 90%;
-        font-size: 25px;
-    
-    }
-    .olvidaste input{
-        width: 15px;
-        height: 15px;
-    }
-    .olvidaste label{
-        font-size: 20px;
+.formulario-login h4 {
+    font-size: 30px;
+}
+.boton input{
+    width: 23%;
+} 
+.olvide p a{
+    font-size: 20px;
+}
+}
+@media(min-width: 1024px){ 
+.formulario-login h4 {
+        font-size: 40px;
     }
     .boton input{
-        width: 20%;
-        text-align: center;
-    }
-    .terminos input{
-        width: 15px;
-        height: 15px;
-    }
-    .terminos label{
+        width: 23.4%;
         font-size: 20px;
     }
-    
-
-
-
+.olvide{
+    font-size: 22px;
 }
-@media (min-width: 1024px){
-    .login h4{
-        font-size: 80px;
-    }
-    .control input{
-        width: 60%;
-
-}
-  .olvidaste label{
-    font-size: 25px;
-  }
-
-.terminos label{
-    font-size: 25px;
 }
 
-}
- 
+
+
+
+
+       

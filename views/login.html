@@ -48,28 +48,27 @@
         </div>
         </nav>
         </div>
-       
     </header>
-
     <main class="home__main">
-            <section class="login"> 
-                <h4>Login</h4>
-                <div class="control" >
-                <input type="text" name="usuario" value="" placeholder="USUARIO">
-                <input type="password"name="contraseña" value="" placeholder="CONTRASEÑA">
-                </div>
-                <div class="olvidaste">
-                <label for="olvidaste">¿OLVIDASTE TU CONTRASEÑA?</label>
-                <input type="checkbox " name="olvidaste">
-                </div>
-                <div class="boton">
-                <input type="submit" name="" value="INGRESAR">
-                </div>
-                <div class="terminos">
-                <label for="terminos">Términos y condiciones</label>
-                <input type="checkbox " name="terminos">
-                </div>
-            </section> 
+  <section class="formulario-login">
+    <h4>¡ Bienvenido nuevamente !</h4>
+    <div class="nombreusu">
+      <input type="text" name="nombreusu" id="nombreusu" placeholder="Ingresa nombre de usuario" required>
+    </div>
+    <div class="contraseña">
+      <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required>
+    </div>
+    <div class="boton">
+      <input type="submit" value="Ingresar" onclick="location.href='/';">
+      <input type="reset" value="Cancelar" onclick="location.href='/login';">
+    </div>
+    <div class="cuenta">
+      <p><a href="/register">NO TENGO UNA CUENTA</a></p>
+    </div>
+    <div class="olvide">
+        <p><a href="/register">¿Has olvidado tu contraseña?</a></p>
+      </div>
+  </section>
     </main>
     <footer class="home__footer"> 
         <section>
