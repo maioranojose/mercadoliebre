@@ -63,19 +63,58 @@
     </div>
     <div class="contraseña">
       <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required>
-    </div><div class="confirmar-contraseña">
+    </div>
+    <div class="confirmar-contraseña">
       <input type="password" name="Contraseña" id="Confirmar contraseña" placeholder="Confirmar tu contraseña" required>
     </div>
-
-    <div class="terminos2">
-      <label for="terminos">Acepto los términos y condiciones.</label>
-      <input type="checkbox"name="acepto">
-    </div>
+   
+    <fieldset>
+        <legend>¿Qué deseas hacer?</legend>
+    
+        <div class="venta">
+          <input type="radio" id="vender" name="vender" value="vender"
+                 checked>
+          <label for="vender">Vender</label>
+        </div>
+    
+        <div class="compra">
+          <input type="radio" id="comprar" name="comprar" value="comprar" checked>
+          <label for="comprar">Comprar</label>
+        </div>
+    
+    </fieldset>
+    <fieldset>
+        <legend>Categorías de interés :</legend>
+        <div class="electro">            
+            <input type="checkbox"name="acepto">
+            <label for="terminos">Electro</label>
+        </div>
+        <div class="moda">            
+            <input type="checkbox"name="acepto">
+            <label for="terminos">Moda</label>
+        </div>
+        <div class="hogar">            
+            <input type="checkbox"name="acepto">
+            <label for="terminos">Hogar</label>
+        </div>
+        <div class="jugueteria">            
+            <input type="checkbox"name="acepto">
+            <label for="terminos">Juguetería</label>
+        </div>
+        <div class="sana">            
+            <input type="checkbox"name="acepto">
+            <label for="terminos">Vida sana</label>
+        </div>
     <div class="boton2">
-      <input type="submit" value="Registrarme">
+      <input type="submit" value="Enviar" onclick="location.href='/';">
+      <input type="reset" value="Cancelar" onclick="location.href='/register';">
     </div>
     <div class="cuenta">
-      <p><a href="/login">Ya tengo cuenta</a></p>
+      <p><a href="/login">YA TENGO UNA CUENTA</a></p>
+    </div>
+    <div class="terminos2">      
+       <input type="checkbox"name="acepto">
+       <label for="terminos">Acepto los términos y condiciones.</label>
     </div>
   </section>
     </main>
