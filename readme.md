@@ -15,3 +15,6 @@ Agregando Estilos](https://github.com/maioranojose/mercadoliebre/tree/styles)
 [Trabajo Práctico Parte 4 : Posicionamiento avanzado FlexBox](https://github.com/maioranojose/mercadoliebre/tree/flexbox)
 
 [Trabajo Práctico Parte 5 : Formularios](https://github.com/maioranojose/mercadoliebre/tree/formulario)
+
+
+[Trabajo Práctico Parte 6 : Organizando Elementos](https://github.com/maioranojose/mercadoliebre/tree/formulario)
