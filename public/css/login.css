@@ -20,6 +20,9 @@
     border-radius: 5px;
     background-color: var(--colorCeleste);
 }
+.boton input:hover {
+    background-color: #0022AA;
+}
 
 .olvide p a{
     color:var(--colorCeleste);
@@ -38,6 +41,9 @@
 .boton input{
     width: 23%;
 } 
+.boton input:hover {
+    background-color: #0022AA;
+}
 .olvide p a{
     font-size: 20px;
 }
@@ -49,6 +55,9 @@
     .boton input{
         width: 23.4%;
         font-size: 20px;
+    }
+    .boton input:hover {
+        background-color: #0022AA;
     }
 .olvide{
     font-size: 22px;

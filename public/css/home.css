@@ -122,6 +122,9 @@
     .home__main--articulo {
         margin-bottom: 0;
     }
+    .home__main--articulo:hover {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        }
 .home__main__section--product {
     margin: 0;
     padding: 0;
@@ -170,6 +173,20 @@
         background-color: var(--colorBlanco);
         border-radius: 50%;
         border: 1px solid var(--colorVerde);
+    }
+    .home__main-camion:hover {
+        animation: willy 2s ease;
+    }
+    @keyframes willy {
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(-90deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
     }
 .home__main-camion p{
     text-align: center;
