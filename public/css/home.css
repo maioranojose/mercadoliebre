@@ -834,6 +834,12 @@ border-top: solid var(--colorGrisClaro) 1px;
 /*FOOTER*/
 .home__footer {
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.home__footer section{
+    width: 30%;
 }
 .home__footer h4 {
     color: var(--colorGrisOscuro);
